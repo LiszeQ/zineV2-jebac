@@ -14,7 +14,9 @@ module.exports.run = async (message, args, client) => {
         try { user.ban({ reason: reason }) } catch { return client.embeds.error(message, client.lang.handle(message, 'I can\'t ban this user', 'Nie mogę zbanować tego użytkownika')) }
 
         // INFRACTIONS
-
+// Created by lambda v1, by sebt08 and Aleks1123
+// Sador to podjebal od nas lmao
+// Kod jest slaby, stary ale nadal nasz
         client.infractions.ensure(`${user.id}_on_${message.guild.id}`, { infractions: 0, history: [] })
         const sch = {
             action: 'Ban',
