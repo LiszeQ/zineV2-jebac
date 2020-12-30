@@ -1,3 +1,6 @@
+// Created by lambda v1, by sebt08 and Aleks1123
+// Sador to podjebal od nas lmao
+// Kod jest slaby, stary ale nadal nasz
 const { MessageEmbed } = require('discord.js')
 module.exports.run = async (message, args, client) => {
     let embeds = []
